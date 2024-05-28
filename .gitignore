@@ -1,0 +1,5 @@
+myenv/*
+.terraform/*
+secrets/*
+Toronto 1975-01-01 to 2023-12-31.csv
+weather_model.joblib
