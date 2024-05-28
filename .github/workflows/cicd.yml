@@ -13,3 +13,5 @@ jobs:
         env:
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          EXCLUDED_FILES: ".gitignore,requirements.txt,README.md"  
+          EXCLUDED_DIRECTORIES: "terraform/,secrets/,artifacts/"
